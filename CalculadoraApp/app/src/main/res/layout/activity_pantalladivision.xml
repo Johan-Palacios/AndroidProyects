@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pantalladivision">
+
+    <TextView
+        android:id="@+id/resultadoDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/campoPrimeroDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/campoSegundoDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="realizarDivision"
+        android:text="Calcular División"
+        app:backgroundTint="#673AB7" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaSuma"
+        android:text="Ir a pantalla Suma"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaResta"
+        android:text="Ir a pantalla Resta"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaMultiplicacion"
+        android:text="Ir a pantalla Multiplicación"
+        app:backgroundTint="#673AB7" />
+</LinearLayout>

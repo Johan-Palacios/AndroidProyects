@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listadoClientes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vistaNombreCompania"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9C27B0" />
+
+        <TextView
+            android:id="@+id/vistaContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#673AB7" />
+
+        <TextView
+            android:id="@+id/vistaCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFEB3B" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="98dp" />
+    </LinearLayout>
+</LinearLayout>

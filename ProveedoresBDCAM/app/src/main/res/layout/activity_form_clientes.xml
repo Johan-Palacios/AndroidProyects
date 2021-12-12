@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".formClientes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Toma tu foto" />
+
+            <ImageView
+                android:id="@+id/viewImageForm"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnCam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                app:srcCompat="@drawable/ico_camara" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <EditText
+                android:id="@+id/campoNombreCompania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre Compania"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoNombreContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nombre Contacto"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoCargoContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contacto"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Dirección"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoCiudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ciudad"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoRegión"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Region"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoCodPostal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Código Postal"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoPais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Pais"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefono"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoFax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Fax"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoPaginaPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Pagina Principal"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar Cliente" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

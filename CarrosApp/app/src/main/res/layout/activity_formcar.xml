@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".formcar">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/gotoMain"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ico_back"></com.airbnb.lottie.LottieAnimationView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="500dp"
+            android:backgroundTint="@color/white"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/data1"></ImageView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cvbg">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="35dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/photoForm"
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/takePhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="30dp"
+                        android:backgroundTint="@color/card_background"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/ic_baseline_camera_24" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/marcaFormCamp"
+                            android:layout_width="285dp"
+                            android:layout_height="match_parent"
+                            android:ems="10"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:hint="Marca de Vehiculo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/lineaFormCamp"
+                            android:layout_width="284dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:hint="Linea de Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/tipoFormCamp"
+                            android:layout_width="288dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Tipo de Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/transmisionFormCamp"
+                            android:layout_width="288dp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Transmisión del Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/modeloFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="290dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Modelo del Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/kmFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="284dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Kilometraje"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/traccionFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="286dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Tracción del Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/combustibleFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="284dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Combustible"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/colorFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="286dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Color del Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/precioFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="284dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="Precio del Vehículo"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/puertaFormCamp"
+                            android:fontFamily="@font/montserrat"
+                            android:layout_width="290dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="No. de Puertas"
+                            android:inputType="textPersonName" />
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"></Space>
+
+                    <Button
+                        android:id="@+id/Registrar"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Registrar Vehículo"
+                        android:textColor="@color/white"
+                        app:cornerRadius="30dp"></Button>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

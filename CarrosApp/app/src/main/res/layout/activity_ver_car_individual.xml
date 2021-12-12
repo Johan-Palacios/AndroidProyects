@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".verCarIndividual">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/irMain"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ico_back"></com.airbnb.lottie.LottieAnimationView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:foregroundGravity="center"
+            android:layout_marginLeft="500dp"
+            android:layout_centerInParent="true"
+            app:cardCornerRadius="200dp"
+            android:backgroundTint="@color/white">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/photoIndividualCar"
+                app:shapeAppearanceOverlay="@style/Circle"
+                android:layout_height="match_parent">
+            </com.google.android.material.imageview.ShapeableImageView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-8dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cvbg">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="35dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textColor="@color/primary_text"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Marca"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verMarcaIndividual"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:inputType="textPersonName"
+                            android:fontFamily="@font/montserrat"></EditText>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Linea"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verlineaIndividual"
+                            android:layout_width="match_parent"
+                            android:inputType="textPersonName"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Tipo"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verTipoIndividual"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="textPersonName"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Transmisión"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        android:layout_marginBottom="5dp"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verTransmisionIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Modelo"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verModeloIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="KM"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verKmIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Tracción"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verTraccionIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Combustible"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verCombustibleIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Color"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verColorIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="Precio"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verPrecioIndividual"
+                            android:layout_width="match_parent"
+                            android:inputType="textPersonName"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:textColor="@color/primary_text"
+                        android:text="No. de Puertas"></TextView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/card_background"
+                        app:cardCornerRadius="30dp">
+
+                        <EditText
+                            android:id="@+id/verPuertaIndividual"
+                            android:inputType="textPersonName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="@font/montserrat"></EditText>
+                    </androidx.cardview.widget.CardView>
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"></Space>
+
+                    <Button
+                        android:id="@+id/btnactualizarCarro"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="@color/primary"
+                        android:textColor="@color/white"
+                        android:text="Actualizar Carro"
+                        app:cornerRadius="30dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/editCar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/card_background"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/ico_edit" />
+
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/deleteCar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/card_background"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/ico_delete" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

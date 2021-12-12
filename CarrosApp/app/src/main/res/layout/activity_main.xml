@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:background="@color/primary">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:foregroundGravity="right"
+            android:src="@drawable/car_ico" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.05"
+            android:text=" Carros APP"
+            android:textColor="@color/white"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="231dp"
+            android:layout_height="117dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:padding="30dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp">
+
+            <ViewFlipper
+                android:id="@+id/viewCarFlipper"
+                android:layout_width="189dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"></ViewFlipper>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:text="Carros de todos los tipos"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/goToForm"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="26dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:fontFamily="@font/montserrat"
+            android:text="Agrega Vehiculo +"
+            android:textColor="@color/white">
+
+        </Button>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listadoCarros"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

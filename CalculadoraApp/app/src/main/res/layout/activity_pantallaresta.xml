@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="realizarResta"
+    android:orientation="vertical"
+    tools:context=".pantallaresta">
+
+    <TextView
+        android:id="@+id/resultadoRestaOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/campoPrimeroResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/campoSegundoResta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="realizarResta"
+        android:text="Aplicar Resta"
+        app:backgroundTint="#673AB7" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="380dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaMultiplicacion"
+        android:text="Ir a Pantalla Multiplicación"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaSuma"
+        android:text="Ir a Pantallla Suma"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarPantallaDivision"
+        android:text="Ir a pantalla División"
+        app:backgroundTint="#673AB7" />
+
+</LinearLayout>

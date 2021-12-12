@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".listadoClientes">
+
+    <LinearLayout
+        android:layout_width="95dp"
+        android:layout_height="145dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/viewPrevMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/vistaClientesNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/vistaClientePais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#FF9800" />
+
+        <TextView
+            android:id="@+id/vistaClienteEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="86dp" />
+    </LinearLayout>
+</LinearLayout>
