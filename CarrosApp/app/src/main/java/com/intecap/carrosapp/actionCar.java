@@ -64,6 +64,7 @@ public class actionCar extends universalConection{
                 obtenerInfoCar.setMarca(cursoCar.getString(1));
                 obtenerInfoCar.setLinea(cursoCar.getString(2));
                 obtenerInfoCar.setModelo(cursoCar.getString(5));
+                obtenerInfoCar.setFoto(cursoCar.getString(12));
                 listarCar.add(obtenerInfoCar);
             }
             while (cursoCar.moveToNext());//Estableciendo condicion para el ciclo
