@@ -19,7 +19,7 @@ This repo contains a lot of apps made with Java for Android OS, the apps have th
 
 - Use of camera
 
-- Beautiful UI (Only in "[Carros App]([AndroidProyects/CarrosApp at master · Johan-Palacios/AndroidProyects (github.com)](https://github.com/Johan-Palacios/AndroidProyects/tree/master/CarrosApp))")
+- Beautiful UI (Only in "[Carros App](https://github.com/Johan-Palacios/AndroidProyects/tree/master/CarrosApp)")
 
 - Use of POO
 
@@ -35,7 +35,7 @@ Este repositorio contiene muchas aplicaciones hechas en Java para Android OS, la
 
 - Uso de camara
 
-- Interfaz Visual Agradable (Solo en "[Carros App]([AndroidProyects/CarrosApp at master · Johan-Palacios/AndroidProyects (github.com)](https://github.com/Johan-Palacios/AndroidProyects/tree/master/CarrosApp))")
+- Interfaz Visual Agradable (Solo en "[Carros App](https://github.com/Johan-Palacios/AndroidProyects/tree/master/CarrosApp)")
 
 - Uso de POO
 
