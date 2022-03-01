@@ -1,0 +1,36 @@
+com/intecap/carrosapp/listCar.java
+ com.intecap.carrosapp.listCar
+com/intecap/carrosapp/BuildConfig.java
+ com.intecap.carrosapp.BuildConfig
+com/intecap/carrosapp/adapter.java
+ com.intecap.carrosapp.adapter
+ com.intecap.carrosapp.adapter$CarViewHoder
+ com.intecap.carrosapp.adapter$CarViewHoder$1
+com/intecap/carrosapp/formcar.java
+ com.intecap.carrosapp.formcar
+ com.intecap.carrosapp.formcar$1
+ com.intecap.carrosapp.formcar$2
+ com.intecap.carrosapp.formcar$3
+com/intecap/carrosapp/MainActivity.java
+ com.intecap.carrosapp.MainActivity
+ com.intecap.carrosapp.MainActivity$1
+com/intecap/carrosapp/verCarIndividual.java
+ com.intecap.carrosapp.verCarIndividual
+ com.intecap.carrosapp.verCarIndividual$1
+ com.intecap.carrosapp.verCarIndividual$2
+ com.intecap.carrosapp.verCarIndividual$3
+ com.intecap.carrosapp.verCarIndividual$3$1
+ com.intecap.carrosapp.verCarIndividual$3$2
+com/intecap/carrosapp/actionCar.java
+ com.intecap.carrosapp.actionCar
+com/intecap/carrosapp/methodCar.java
+ com.intecap.carrosapp.methodCar
+com/intecap/carrosapp/universalConection.java
+ com.intecap.carrosapp.universalConection
+com/intecap/carrosapp/splashScreen.java
+ com.intecap.carrosapp.splashScreen
+ com.intecap.carrosapp.splashScreen$1
+com/intecap/carrosapp/editCar.java
+ com.intecap.carrosapp.editCar
+ com.intecap.carrosapp.editCar$1
+ com.intecap.carrosapp.editCar$2

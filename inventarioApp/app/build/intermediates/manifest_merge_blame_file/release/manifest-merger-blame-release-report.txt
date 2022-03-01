@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.intecap.carrosapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <application
+13-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:7:5-53:19
+14        android:allowBackup="true"
+14-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\ByGoh\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.CarrosApp" >
+21-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:13:9-47
+22        <activity
+22-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:14:9-17:15
+23            android:name="com.intecap.carrosapp.MainActivity"
+23-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:15:13-41
+24            android:exported="false" />
+24-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:16:13-37
+25        <activity
+25-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:18:9-20:40
+26            android:name="com.intecap.carrosapp.verCarIndividual"
+26-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:19:13-45
+27            android:exported="false" />
+27-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:20:13-37
+28        <activity
+28-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:21:9-23:40
+29            android:name="com.intecap.carrosapp.editCar"
+29-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:22:13-36
+30            android:exported="false" />
+30-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:23:13-37
+31        <activity
+31-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:24:9-26:40
+32            android:name="com.intecap.carrosapp.listCar"
+32-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:25:13-36
+33            android:exported="false" />
+33-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:26:13-37
+34        <activity
+34-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:27:9-29:40
+35            android:name="com.intecap.carrosapp.formcar"
+35-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:28:13-36
+36            android:exported="false" />
+36-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:29:13-37
+37        <activity
+37-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:30:9-38:20
+38            android:name="com.intecap.carrosapp.splashScreen"
+38-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:31:13-41
+39            android:exported="true" >
+39-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:32:13-36
+40            <intent-filter>
+40-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:33:13-37:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:34:17-69
+41-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:34:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:36:17-77
+43-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:36:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:40:9-48:20
+48            android:name="androidx.core.content.FileProvider"
+48-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:41:13-62
+49            android:authorities="com.intecap.carrosapp"
+49-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:42:13-56
+50            android:exported="false"
+50-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:43:13-37
+51            android:grantUriPermissions="true" >
+51-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:44:13-47
+52            <meta-data
+52-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:45:13-47:54
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:46:17-67
+54                android:resource="@xml/file_paths" />
+54-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:47:17-51
+55        </provider>
+56
+57        <meta-data
+57-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:50:9-52:57
+58            android:name="preloaded_fonts"
+58-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:51:13-43
+59            android:resource="@array/preloaded_fonts" />
+59-->C:\Users\ByGoh\AndroidStudioProjects\CarrosApp\app\src\main\AndroidManifest.xml:52:13-54
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+63            android:authorities="com.intecap.carrosapp.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ByGoh\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ByGoh\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ByGoh\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ByGoh\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>

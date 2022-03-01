@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\layout_activity_ver_car_individual.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\layout\\activity_ver_car_individual.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_ico_edit.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\ico_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_loadtwo.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\loadtwo.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_photo.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\photo.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_loadone.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\loadone.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_data2.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\data2.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_car.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\car.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_arrow_left.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_ico_back.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\ico_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable-v24_cvbg.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable-v24\\cvbg.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\font_montserrat.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\font\\montserrat.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_car_ico.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\car_ico.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_loading.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\loading.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_tesla.jpg.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\tesla.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_click.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\click.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_back.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\back.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_cariso.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\cariso.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_data1.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\data1.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\layout_activity_list_car.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\layout\\activity_list_car.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_ico_delete.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\ico_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_nissan.jpg.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\nissan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_camaro.jpg.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\camaro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_raize.jpg.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\raize.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_ic_baseline_camera_24.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\ic_baseline_camera_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_data3.png.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\data3.png"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\layout_activity_formcar.xml.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\layout\\activity_formcar.xml"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\raw_pop.json.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\raw\\pop.json"
+    },
+    {
+        "merged": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\build\\intermediates\\merged_res\\release\\drawable_rav4.jpg.flat",
+        "source": "C:\\Users\\ByGoh\\AndroidStudioProjects\\CarrosApp\\app\\src\\main\\res\\drawable\\rav4.jpg"
+    }
+]
